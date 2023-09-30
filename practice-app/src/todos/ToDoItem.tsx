@@ -20,7 +20,7 @@ export default function TodoItem(todo: ToDo & { dispatch: Dispatch<Actions> }) {
         className={cn(
           "p-2 rounded-full",
           // TODO: update this to use the correct color
-          "bg-slate-200"
+          "bg-green-800"
         )}
       />
       <p
